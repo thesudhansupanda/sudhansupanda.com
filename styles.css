@@ -121,5 +121,6 @@ padding: 1rem 1rem;
 }
 
 .footer .link{
+    text-align: center;
     color: var(--white);
 }
