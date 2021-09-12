@@ -60,6 +60,12 @@ padding: 1rem 1rem;
     padding: 0 0.15rem;
 }
 
+.list-non-bullet{
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+
 .navigation {
     background-color: var(--primary);
     /* color: var(--white); */
@@ -95,9 +101,13 @@ padding: 1rem 1rem;
     padding: 1rem;
   }
 
+  .hero .projectbio{
+    text-align: center;
+  }
+
   .hero .hero-image {
     max-width: 100%;
-    width: 450px;
+    width: 350px;
     display: block;
     margin: auto;
     /* padding: 1.5rem 0; */
@@ -108,6 +118,7 @@ padding: 1rem 1rem;
     text-align: center;
     padding: 1rem;
   }
+
   .hero .heading-inverted{
     color: var(--secondary);
   }
