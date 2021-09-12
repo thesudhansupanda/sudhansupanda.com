@@ -2,6 +2,7 @@
 
 :root {
     --primary: #10B981;
+    --secondary: #059669;
     --white: white;
     --off-white: #F3F4F6; 
 }
@@ -106,6 +107,9 @@ padding: 1rem 1rem;
     font-family: 'Kaisei Tokumin', serif;
     text-align: center;
     padding: 1rem;
+  }
+  .hero .heading-inverted{
+    color: var(--secondary);
   }
 
 .footer{
