@@ -108,19 +108,23 @@ padding: 1rem 1rem;
 
 .footer{
     background-color: var(--primary);
-    /* color: var(--white); */
+    color: var(--white);
     border-top-right-radius: 1rem;
     text-align: center;
     padding: 2rem;
     margin: auto;
 }
 
-.footer .footer-heading{
+/* .footer .footer-heading{
     color: var(--white);
-    text-align: center;
+   
+} */
+
+.footer ul {
+  padding: 0;
 }
 
 .footer .link{
-    text-align: center;
+    /* text-align: center; */
     color: var(--white);
 }
